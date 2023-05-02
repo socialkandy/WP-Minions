@@ -20,7 +20,7 @@
         }
     ],
     "require": {
-        "composer/installers": "~1.0",
+        "composer/installers": "^2.2",
         "php-amqplib/php-amqplib": "2.8.0"
     },
 	"require-dev": {
@@ -31,5 +31,10 @@
 		"psr-4": {
 			"WpMinions\\": "includes/WpMinions"
 		}
-	}
+	},
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
 }
