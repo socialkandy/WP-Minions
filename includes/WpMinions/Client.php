@@ -25,6 +25,6 @@ abstract class Client {
 	 * @param string $priority Optional priority of the job
 	 * @return bool true or false depending on the Client
 	 */
-	abstract function add( $action, $params = array(), $priority );
+	abstract function add( $action, $params, $priority );
 
 }
